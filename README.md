@@ -16,7 +16,7 @@ A little explanation is in order, as I had to climb several learning curves to b
 - I chose Eclipse as my IDE, but it's been six years since I've used it and I was rusty (I've been using IntelliJ for the past few years, and I'm much more used to its editor.  It's also a lot speedier than Eclipse).<br>
 - I hadn't worked with Docker either, but decided to figure out the deployment once I had the app working.<br>
 <p>
-I spent 8-10 hours on this project over the course of three nights, and I finally decided just couldn't devote any more time to it.  Given more time I could have figured out the remaining pieces, but once I got to a working command-line application, I had to make the executive decision that this would have to suffice.
+I spent about 10 hours on this project over the course of three nights, and I finally had to make the executive decision that I just couldn't devote any more time to it.  Given more time I have no doubt I could have figured out the remaining pieces.  But my family was starting to wonder where I disappeared to.
 <p>
 Maybe in the next sprint.  :)
 <p>
