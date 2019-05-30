@@ -2,8 +2,6 @@ To build and run this project:<br>
 $ ./build_it.sh<br>
 $ ./run_it.sh my-message<br>
 <p>
-The next step was to figure out how to build and deploy this into Docker, but I need to get on with my life.  :)
-<p>
 And now, I have to admit that I've achieved only partial success.  While the application works, it does not completely fulfill the stated requirements.<br>
 1) Instead of living in a Docker container, it runs on the command line.<br>
 2) It generates its keys on the fly with every invocation and does not store them on disk.<br>
