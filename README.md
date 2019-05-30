@@ -1,8 +1,10 @@
 To build and run this project:<br>
+$ git clone https://github.com/ealowe/SmartEdgeCodeChallenge.git
+$ cd SmartEdgeCodeChallenge
 $ ./build_it.sh<br>
-$ ./run_it.sh my-message<br>
+$ ./run_it.sh my-message-text<br>
 <p>
-And now, I have to admit that I've achieved only partial success.  While the application works, it does not completely fulfill the stated requirements.<br>
+And sadly, I have to admit that I've achieved only partial success.  While the application works, it does not completely fulfill the stated requirements.<br>
 1) Instead of living in a Docker container, it runs on the command line.<br>
 2) It generates its keys on the fly with every invocation and does not store them on disk.<br>
 3) Unit testing is thin.<br>
