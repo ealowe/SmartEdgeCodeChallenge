@@ -17,7 +17,7 @@ A little explanation is in order, as I had to climb several learning curves to b
 - For java.security to store a KeyPair on disk in a KeyStore, I needed to generate a trusted certificate.  I've never worked with trusted certificates, and Java doesn't offer much support for it out of the box.  I looked at the Bouncy Castle library, but decided to punt it until later and get the main app working first.<br>
 - I chose Eclipse as my IDE, but it's been six years since I've used it and I was rusty (I've been using IntelliJ for the past few years, and I'm much more used to its editor.  It's also a lot speedier than Eclipse).<br>
 - I chose Gradle over Maven, as I'm familiar with Groovy and I find Maven's pom.xml files to be painful.  But I'm a Gradle neophyte (come on man, I go back to the days of "make"), so it took some time to get that working too.<br>
-- I hadn't worked with Docker either, but decided to figure out the deployment once I had the app working on the command line.<br>
+- I hadn't worked with Docker either, but decided to figure out the deployment once I had the app working on the command line.  And then I decided that was enough.<br>
 <p>
 I spent about 10 hours on this project over the course of three nights, and I finally had to make the executive decision that I just couldn't devote any more time to it.  Given more time I have no doubt I could have figured out the remaining pieces.  But my family was starting to wonder where I disappeared to.
 <p>
