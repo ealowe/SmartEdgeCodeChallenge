@@ -7,7 +7,10 @@
  */
 
 // Apply the java plugin to add support for Java
-apply plugin: 'java'
+plugins {
+	id 'java'
+	id 'application'
+}
 
 // In this section you declare where to find the dependencies of your project
 repositories {
@@ -20,8 +23,8 @@ dependencies {
     // The production code uses Guava
     compile 'com.google.guava:guava:20.0'
     compile 'com.fasterxml.jackson.core:jackson-databind:2.9.8'
-    //compile 'org.bouncycastle:bcprov-jdk15on:1.57'
     
     testCompile 'junit:junit:4.12'
 }
 
+mainClassName = 'com.se.codechallenge.CodeChallengeApplication'
